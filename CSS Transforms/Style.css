@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: beige;
+    border: 2px solid black;
+    /*transform: rotate(55deg);*/
+    /*transform: rotateZ(45deg);*/
+    /*transform: scaleY(1.6);*/
+    /*transform: skewY(34deg); this is not aplly in the Z-Axis*/
+    /* transform: translateY(100%) skew(34deg) translateX(45%); */
+    /*transform-origin: 32% 0%;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100vw;
+    height: 80vh;
+    border: 2px solid purple;
+}
