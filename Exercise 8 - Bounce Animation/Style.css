@@ -1,0 +1,61 @@
+.box{
+    height: 121px;
+    width: 123px;
+    background-color: red;
+    position: absolute;
+    border-radius: 70px;
+    bottom: 0;
+    left: 0;
+
+    animation: Ball 5s linear infinite;
+}
+
+.container{
+    position: relative;
+    height: 80vh;
+    width: 70vw;
+    background-color: blue;
+}
+
+@keyframes Ball {
+    0%{
+        left: 0;
+        bottom: 0;
+    }
+
+    10%{
+        left: 10%;
+        bottom: 60%;
+    }
+
+    20%{
+        left: 20%;
+        bottom: 0%;
+    }
+
+    35%{
+        left: 30%;
+        bottom: 50%;
+    }
+
+    40%{
+        left: 35%;
+        bottom: 0;
+    }
+
+    50%{
+        left: 48%;
+        bottom: 40%;
+    }
+
+    70%{
+        left: 58%;
+        bottom: 0%;
+    }
+
+    100%{
+        left: 65%;
+        bottom: 20%;
+    }
+    
+}
