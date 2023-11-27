@@ -15,3 +15,5 @@ else{
     console.log("Computer is not blasting")
 }
 console.log("Your number is" + a)
+
+//document.body.style.backgroundColor = "red"
