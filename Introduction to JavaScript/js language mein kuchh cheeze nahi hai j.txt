@@ -1,0 +1,1 @@
+js language mein kuchh cheeze nahi hai jo hum use kar sakte hai aur vo cheeze hume js se nahi balki borwser se milti hai, Aise saare features jo js ka part nahi hai but fir bhi use kar sakte hai unhe hum dhoond sakte hai ek particular object mein jiska naam hai window
